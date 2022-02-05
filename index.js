@@ -1,12 +1,9 @@
 const express = require('express');
+require('./services/passport')
+
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send({
-        nevid: 'чорна велика криса',
-        chomki4: 'дворф форт буаяр тебе жде'    
-    });
-})
+require('./routes/authRoutes')(app)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
