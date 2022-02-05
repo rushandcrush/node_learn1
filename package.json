@@ -1,0 +1,22 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "just learning nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushandcrush/node_learn1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushandcrush/node_learn1/issues"
+  },
+  "homepage": "https://github.com/rushandcrush/node_learn1#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
