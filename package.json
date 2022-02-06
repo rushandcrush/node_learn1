@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/rushandcrush/node_learn1#readme",
   "dependencies": {
+    "cookie-session": "^2.0.0",
     "express": "^4.17.2",
+    "mongoose": "^6.2.0",
     "nodemon": "^2.0.15",
     "passport": "^0.5.2",
+    "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0"
   }
 }
