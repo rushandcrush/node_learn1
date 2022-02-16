@@ -20,7 +20,7 @@
 *.tar
 *.zip
 node_modules/
-key.js
+dev.js
 
 # Logs and databases #
 ######################
