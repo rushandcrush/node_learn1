@@ -3,4 +3,14 @@ module.exports = function(app) {
     app.use(createProxyMiddleware('/auth/google', 
         { target: 'http://localhost:5000/' }
     ));
+    app.use(
+        '/api/*',
+        createProxyMiddleware({
+          target: 'http://localhost:5000/',
+          changeOrigin: true,
+          pathRewrite: {
+              
+          },
+        })
+      );
 }
